@@ -8,8 +8,9 @@
         <Label Text="{Binding main.temp}"/>
         <Label Text="{Binding main.pressure}"/>
         <Label Text="{Binding main.humidity}"/>
-        <Label Text="{Binding main.speed}"/>
-        <Button x:Name="GetweatherButton" Text="Get Weather" Clicked="GetweatherButton_Clicked" VerticalOptions="EndAndExpand"/>
+        <Label Text="{Binding wind.speed}"/>
+        <Label Text="{Binding clouds.all}"/>
+       
 
     </StackLayout>
 

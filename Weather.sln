@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weather.Android", "Weather\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weather.iOS", "Weather\Weather.iOS\Weather.iOS.csproj", "{47EDD8F0-E679-4014-B93B-3419EC813A0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weather", "Weather\Weather\Weather.csproj", "{D078C07D-F543-4C3C-9ABE-EF9C0131A87F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weather", "Weather\Weather\Weather.csproj", "{D078C07D-F543-4C3C-9ABE-EF9C0131A87F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D1965B0A-DB8C-4F8C-B842-6F4D21A7155B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

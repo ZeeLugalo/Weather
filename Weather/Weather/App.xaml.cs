@@ -10,7 +10,11 @@ namespace Weather
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            var page = new NavigationPage(new WeatherView());
+            page.BarTextColor = Color.Black;
+            page.BarBackgroundColor = Color.LightSkyBlue;
+
+            MainPage= page;
         }
 
         protected override void OnStart()
